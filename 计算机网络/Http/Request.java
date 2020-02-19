@@ -29,7 +29,20 @@ public class Request {
 
     }
 
+    public String getHeader(String key){
+        return headers.get(key);
+    }
+    public  String getParameter(String key){
+        return parameters.get(key);
+    }
 
+    public String getMethod() {
+        return method;
+    }
+
+    public String getUrl() {
+        return url;
+    }
 
     public static Request buildRequest(InputStream inputStream) {
         Request request = new Request();
@@ -92,6 +105,7 @@ public class Request {
         System.out.printf("请求方法：%s,url:%s,版本号：%s\n", method, url, version);
 
     }
+
 
     /*
     * 解析请求参数，

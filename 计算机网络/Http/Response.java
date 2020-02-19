@@ -82,7 +82,28 @@ public class Response {
         //2.PrintWriter.flush();
         //writer.flush();
     }
-
+    public void build200(){
+        status = 200;
+        message = "OK";
+    }
+    public void  build404(){
+        status = 404;
+        message = "找不到资源";
+    }
+    public void build3xx(){
+        status = 307;
+        message = "重定向";
+    }
+    public void build405(){
+        status = 405;
+        message = "Method Not Allowed";
+    }
+    /*
+    * 构建500*/
+    public void build500(){
+        status = 500;
+        message = "Server Error";
+    }
     public void setMessage(String message) {
         this.message = message;
     }
