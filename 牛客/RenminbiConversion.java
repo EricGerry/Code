@@ -20,7 +20,6 @@ import java.util.Scanner;
 输入一个double数
 
 
-
 输出描述:
 输出人民币格式
 
