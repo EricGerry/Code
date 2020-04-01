@@ -5,7 +5,9 @@ import java.util.Scanner;
  * @Date：2020/3/31 22:46
  */
 
-/*一个数各个位数之和*/
+/*
+一个数各个位数之和
+* */
 
 public class SumOfNum {
     public static void main(String[] args) {
