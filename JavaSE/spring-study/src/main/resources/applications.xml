@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd">
+    <bean id="田佳" class="java.lang.String">
+        <constructor-arg value="小仙女" />
+    </bean>
+
+    <!--无参的构造方法-->
+    <bean id="duck" class="frank.ioc.Duck">
+        <!-- <property name="name" value="LadyDuck"/> -->
+        <property name="name" ref="田佳"/>
+        <property name="age" value="6"/>
+    </bean>
+    <bean id="duck2" class="frank.ioc.Duck">
+        <property name="name" value="LadyDuck"/>
+        <property name="age" value="8"/>
+    </bean>
+    <bean name="duckShop" class="frank.ioc.DuckShop">
+        <property name="name" value="烤鸭店"/>
+        <property name="ducks">
+            <list>
+                    <ref bean="duck"/>
+                    <ref bean="duck2"/>
+            </list>
+        </property>
+    </bean>
+</beans>
