@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d4f07103-1b92-4c13-b04b-c04635831e0b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Bridge" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\Tool\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1afMdujQCBwTCA5dpKseeUr3Q2V" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bridge.test.Client" />
+      <module name="Bridge" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d4f07103-1b92-4c13-b04b-c04635831e0b" name="Default Changelist" comment="" />
+      <created>1587122285266</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587122285266</updated>
+      <workItem from="1587122290032" duration="1335000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="430" y="273" width="431" height="226" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1587123666490">
+      <screen x="0" y="0" width="1291" height="768" />
+    </state>
+    <state x="430" y="273" width="431" height="226" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1291.768@0.0.1291.768" timestamp="1587123666490" />
+    <state width="1248" height="192" key="GridCell.Tab.0.bottom" timestamp="1587122753842">
+      <screen x="0" y="0" width="1291" height="768" />
+    </state>
+    <state width="1248" height="192" key="GridCell.Tab.0.bottom/0.0.1291.768@0.0.1291.768" timestamp="1587122753842" />
+    <state width="1248" height="192" key="GridCell.Tab.0.center" timestamp="1587122753842">
+      <screen x="0" y="0" width="1291" height="768" />
+    </state>
+    <state width="1248" height="192" key="GridCell.Tab.0.center/0.0.1291.768@0.0.1291.768" timestamp="1587122753842" />
+    <state width="1248" height="192" key="GridCell.Tab.0.left" timestamp="1587122753842">
+      <screen x="0" y="0" width="1291" height="768" />
+    </state>
+    <state width="1248" height="192" key="GridCell.Tab.0.left/0.0.1291.768@0.0.1291.768" timestamp="1587122753842" />
+    <state width="1248" height="192" key="GridCell.Tab.0.right" timestamp="1587122753842">
+      <screen x="0" y="0" width="1291" height="768" />
+    </state>
+    <state width="1248" height="192" key="GridCell.Tab.0.right/0.0.1291.768@0.0.1291.768" timestamp="1587122753842" />
+    <state x="338" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1587122290040">
+      <screen x="0" y="0" width="1291" height="768" />
+    </state>
+    <state x="338" y="211" key="com.intellij.ide.util.TipDialog/0.0.1291.768@0.0.1291.768" timestamp="1587122290040" />
+  </component>
+</project>
